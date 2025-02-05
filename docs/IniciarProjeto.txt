@@ -1,0 +1,8 @@
+Comando para iniciar o projeto
+- npm create vite@latest
+
+Comando utilizado no curso (para nao haver problemas)
+- npm create vite@5.5.2 .
+
+. - signfica criar o projeto no repositório
+

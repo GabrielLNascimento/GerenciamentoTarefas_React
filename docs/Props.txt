@@ -1,0 +1,14 @@
+Consigo enviar dados de um componente pai para o filho
+
+-- estrutura de dados principal
+dados = [ valor1, valor2, valor3 ]...
+
+passar dentro de um componente
+<NomeComponente nomeProps={dados} />
+
+dentro do componente:
+function Tasks(props) {
+    console.log(props)
+}
+
+props => objeto que armazena todos os dados passados

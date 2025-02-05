@@ -1,0 +1,20 @@
+## Requisitos para estudar React: ##
+- HTML e CSS
+- Javascript (ES6+)
+    - Estrutura de dados, funções, objetos
+    - Destructuring, arrow functions
+    - Promises e Async/Await
+
+
+## O que é React? ##
+- Biblioteca usada para criar interfaces de usuário interativas
+- Todas os sites hoje em dia tem essas interatividade com o usuário, e o React brilha nessa hora
+- Conceito de componentes, criamos varios componentes (bloco de código ou uma peça de lego)
+    Juntando essas peças, forma a nossa aplicação
+
+
+## Por que aprender React? ##
+- Desenvolvido pelo facebook
+- usado em varios lugares, flexível
+- sai da frente dos concorrentes (vue, angular)
+- Usado em varias empresas (spotfy, netflix, instagram)

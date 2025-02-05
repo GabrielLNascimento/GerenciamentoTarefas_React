@@ -1,0 +1,43 @@
+    let message = 'Ola pessoal';
+    return (
+        <div>
+            <h1>{message}</h1>
+            <button onClick={() => { message = 'Ola fui clicado'}}>Mudar</button>
+        </div>
+    );
+
+Estou tentando alterar a mensagem, mas está dando erro
+Preciso de um state para alterar de fato a mensagem
+
+State é uma variavel, que quando eu altero o valor do state, eu recarrego a pagina, sendo assim alterando o valor
+
+## CRIAR UM STATE ##
+- criar uma variavel entre [ ]
+- [nome, setNome]
+- igualar a função useState()
+
+Dentro de botão do html eu coloco o seguinte codigo
+<button onClick={() => { setMessage("Nova mensagem") }}>Mudar</button>
+
+Dentro do useState() -> eu posso passar valores iniciais
+useState("Ola pessoal")
+
+
+Exercicio Prático
+import { useState } from "react";
+
+function App() {
+    // let message = 'Ola pessoal';
+    
+    // States (estados)
+    const [message, setMessage] = useState("Ola pessoal")
+
+    return (
+        <div>
+            <h1>{message}</h1>
+            <button onClick={() => { setMessage("Nova mensagem") }}>Mudar</button>
+        </div>
+    );
+}
+
+export default App;

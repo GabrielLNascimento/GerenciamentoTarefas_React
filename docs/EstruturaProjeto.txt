@@ -1,0 +1,10 @@
+Quem vai inserir o conteudo no index.html é o proprio React por meio do  * javascript *
+
+SPA (Single page aplications)
+- Muito rapido, não exige chamadas para o servidor
+- são altamentes interativas com o usuário
+
+
+Pasta "src" vai ter os arquivos do react
+- main.jsx: arquivo principal
+    Criar a nossa aplicação em react e renderizar no index.html

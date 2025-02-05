@@ -1,0 +1,26 @@
+No react, dividimos a aplicação em pequenos componentes
+Quando combinamos todos os componentes, forma a nossa aplicação
+Como se fosse uma peça de lego, com funçoes particulares
+Usamos JSX para escreve-los
+
+Componente é uma função javascript que retorna um JSX -> (html + javascript)
+
+* Sempre vai ser renderizado de letra maiúscula
+
+
+Estrutura:
+function <Nome> { ... codigo para retornar jsx ... }
+
+export default <Nome>
+
+* Só posso retornar um jsx apenas de uma vez
+
+## INSERIR CONTEUDO ##
+    const message = 'Ola pessoal';
+    return <h1> {message} </h1>;
+
+
+
+## IMPORTAR ##
+import Tasks from "./components/Tasks";
+- <Tasks />

@@ -1,0 +1,11 @@
+Comando para instalar
+- npm install -D tailwindcss@3.4.10 postcss@8.4.41 autoprefixer@10.4.20
+
+Comando para inicializar arquivo:
+- npx tailwindcss init -p
+
+Configurar o content:
+- content: ["./index.html", "./src/**/*.{js, ts, jsx, tsx}"],
+
+Instalar icones:
+- npm install lucide-react@0.435.0
